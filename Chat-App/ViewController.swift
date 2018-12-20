@@ -14,6 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         print("this is a test")
         print("This is a test2")
+        print("This is a test3")
       
     }
 

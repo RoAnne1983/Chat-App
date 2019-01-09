@@ -64,7 +64,6 @@
 		9720B6E221C9158800112E67 = {
 			isa = PBXGroup;
 			children = (
-				97B88AC321E5F850003B49F9 /* Supporting Files */,
 				9720B6ED21C9158900112E67 /* Chat-App */,
 				9720B6EC21C9158900112E67 /* Products */,
 				41C7315BD5587487CAB3E644 /* Pods */,
@@ -83,6 +82,7 @@
 		9720B6ED21C9158900112E67 /* Chat-App */ = {
 			isa = PBXGroup;
 			children = (
+				97B88AC321E5F850003B49F9 /* Supporting Files */,
 				9720B6EE21C9158900112E67 /* AppDelegate.swift */,
 				9720B6F021C9158900112E67 /* ViewController.swift */,
 				9720B6F221C9158900112E67 /* Main.storyboard */,
@@ -101,6 +101,7 @@
 				97B88AC421E5F8A5003B49F9 /* Chat-App-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

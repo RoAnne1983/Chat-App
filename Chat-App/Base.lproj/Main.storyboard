@@ -23,8 +23,8 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
-                        <segue destination="pOe-Ml-MD6" kind="custom" customClass="SWRevealViewControllerSegueSetController" id="fo0-s0-UJZ"/>
-                        <segue destination="JSC-Il-XSn" kind="custom" customClass="SWRevealViewControllerSegueSetController" id="yI5-aY-8Ol"/>
+                        <segue destination="pOe-Ml-MD6" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegueSetController" id="fo0-s0-UJZ"/>
+                        <segue destination="JSC-Il-XSn" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="yI5-aY-8Ol"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

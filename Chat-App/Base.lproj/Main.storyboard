@@ -45,16 +45,14 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tP4-19-CSC">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="77"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vpG-OY-IVq">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vpG-OY-IVq">
                                         <rect key="frame" x="12" y="41" width="24" height="24"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="24" id="1Nc-7J-WQa"/>
-                                            <constraint firstAttribute="width" constant="24" id="4ZG-4y-Hfd"/>
-                                        </constraints>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="smackBurger"/>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Chat-App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RdH-tg-rzC">
-                                        <rect key="frame" x="168" y="41" width="108" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chat-App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RdH-tg-rzC">
+                                        <rect key="frame" x="145" y="41" width="85" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="19"/>
                                         <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -62,18 +60,15 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.29019607843137252" green="0.30196078431372547" blue="0.84705882352941175" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="vpG-OY-IVq" firstAttribute="centerY" secondItem="RdH-tg-rzC" secondAttribute="centerY" id="HCc-vq-ZAN"/>
-                                    <constraint firstAttribute="height" constant="77" id="Rf3-JX-959"/>
-                                    <constraint firstItem="vpG-OY-IVq" firstAttribute="leading" secondItem="tP4-19-CSC" secondAttribute="leading" constant="12" id="Ycx-6I-GBf"/>
-                                    <constraint firstAttribute="bottom" secondItem="vpG-OY-IVq" secondAttribute="bottom" constant="12" id="fCW-Np-du0"/>
+                                    <constraint firstAttribute="height" constant="77" id="lQp-LU-Ahe"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="tP4-19-CSC" firstAttribute="top" secondItem="vkw-Vm-lRF" secondAttribute="top" id="ASp-DX-xhT"/>
-                            <constraint firstAttribute="trailing" secondItem="tP4-19-CSC" secondAttribute="trailing" id="BgB-AE-BRw"/>
-                            <constraint firstItem="tP4-19-CSC" firstAttribute="leading" secondItem="vkw-Vm-lRF" secondAttribute="leading" id="Fw6-Ac-PiV"/>
+                            <constraint firstItem="tP4-19-CSC" firstAttribute="top" secondItem="vkw-Vm-lRF" secondAttribute="top" id="APj-Xc-KFV"/>
+                            <constraint firstAttribute="trailing" secondItem="tP4-19-CSC" secondAttribute="trailing" id="GU3-S1-8hs"/>
+                            <constraint firstItem="tP4-19-CSC" firstAttribute="leading" secondItem="vkw-Vm-lRF" secondAttribute="leading" id="TjN-pU-yBH"/>
                         </constraints>
                     </view>
                     <connections>

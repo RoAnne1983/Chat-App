@@ -87,7 +87,7 @@
                         <viewControllerLayoutGuide type="top" id="shG-BW-Ctx"/>
                         <viewControllerLayoutGuide type="bottom" id="yBK-xf-Qi1"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="DI8-KG-WNC">
+                    <view key="view" contentMode="scaleToFill" id="DI8-KG-WNC" customClass="GradientView" customModule="Chat_App" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

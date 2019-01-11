@@ -104,31 +104,45 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Imk-ec-Ku0">
-                                <rect key="frame" x="110" y="571" width="50" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ax-GB-kjY">
+                                <rect key="frame" x="281" y="90" width="22" height="22"/>
+                                <state key="normal" image="addChannelButton"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Imk-ec-Ku0">
+                                <rect key="frame" x="111" y="593" width="46" height="33"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                 <state key="normal" title="Login">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="menuProfileIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Ayf-FE-aEU">
-                                <rect key="frame" x="27" y="549" width="75" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menuProfileIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Ayf-FE-aEU">
+                                <rect key="frame" x="16" y="572" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="BbJ-EK-RbP"/>
+                                    <constraint firstAttribute="width" constant="75" id="wZZ-qx-ffe"/>
+                                </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ax-GB-kjY">
-                                <rect key="frame" x="281" y="90" width="22" height="22"/>
-                                <state key="normal" image="addChannelButton"/>
-                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="e5Y-fI-oW9">
+                                <rect key="frame" x="0.0" y="132" width="375" height="420"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="Imk-ec-Ku0" firstAttribute="leading" secondItem="Ayf-FE-aEU" secondAttribute="trailing" constant="20" id="4PQ-Fw-KyW"/>
                             <constraint firstItem="yoI-8D-xdp" firstAttribute="leading" secondItem="DI8-KG-WNC" secondAttribute="leadingMargin" id="EfF-76-xAZ"/>
+                            <constraint firstItem="e5Y-fI-oW9" firstAttribute="leading" secondItem="DI8-KG-WNC" secondAttribute="leading" id="GWr-8N-iSC"/>
+                            <constraint firstItem="yBK-xf-Qi1" firstAttribute="top" secondItem="Ayf-FE-aEU" secondAttribute="bottom" constant="20" id="M2w-yc-fiI"/>
+                            <constraint firstItem="Ayf-FE-aEU" firstAttribute="top" secondItem="e5Y-fI-oW9" secondAttribute="bottom" constant="20" id="NIR-4V-LBc"/>
+                            <constraint firstItem="Ayf-FE-aEU" firstAttribute="leading" secondItem="DI8-KG-WNC" secondAttribute="leadingMargin" id="POB-QU-ph3"/>
                             <constraint firstItem="yoI-8D-xdp" firstAttribute="top" secondItem="VCN-R4-zEX" secondAttribute="bottom" constant="20" id="SmO-MV-IIX"/>
+                            <constraint firstItem="Imk-ec-Ku0" firstAttribute="centerY" secondItem="Ayf-FE-aEU" secondAttribute="centerY" id="Xqq-S1-185"/>
+                            <constraint firstItem="e5Y-fI-oW9" firstAttribute="top" secondItem="6Ax-GB-kjY" secondAttribute="bottom" constant="20" id="d1E-gr-995"/>
                             <constraint firstItem="VCN-R4-zEX" firstAttribute="leading" secondItem="DI8-KG-WNC" secondAttribute="leadingMargin" id="dif-Pn-e0s"/>
                             <constraint firstItem="VCN-R4-zEX" firstAttribute="top" secondItem="shG-BW-Ctx" secondAttribute="bottom" constant="24" id="gyz-7e-reF"/>
                             <constraint firstAttribute="trailing" secondItem="6Ax-GB-kjY" secondAttribute="trailing" constant="72" id="hpe-K0-ax6"/>
                             <constraint firstItem="6Ax-GB-kjY" firstAttribute="centerY" secondItem="yoI-8D-xdp" secondAttribute="centerY" id="r03-Dv-acg"/>
+                            <constraint firstAttribute="trailing" secondItem="e5Y-fI-oW9" secondAttribute="trailing" id="zG9-MH-bL4"/>
                         </constraints>
                     </view>
                 </viewController>

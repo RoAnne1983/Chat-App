@@ -241,6 +241,9 @@
                                 <state key="normal" title="Dont have an account? Sign up here ">
                                     <color key="titleColor" red="0.43102943897247314" green="0.41043654084205627" blue="0.79958504438400269" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="createAccountBtnPressed:" destination="rjX-wX-Qao" eventType="touchUpInside" id="VgK-SC-Rgn"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="ZzE-kW-O0Q">
                                 <rect key="frame" x="62.5" y="160" width="250" height="80"/>
@@ -291,10 +294,31 @@
                             <constraint firstItem="ZzE-kW-O0Q" firstAttribute="centerX" secondItem="86j-p3-qp1" secondAttribute="centerX" id="xWN-Gj-MBA"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="oeh-f6-bFa" kind="show" identifier="toCreateAccount" id="3Ot-WU-azP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DKg-s9-4cV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1616.8" y="-203.74812593703149"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="GQx-RK-fb3">
+            <objects>
+                <viewController id="oeh-f6-bFa" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="x8s-gp-DYO"/>
+                        <viewControllerLayoutGuide type="bottom" id="FxR-Wm-FnQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hV4-ma-94L">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fnd-Ub-Kd6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2458" y="-204"/>
         </scene>
     </scenes>
     <resources>

@@ -10,6 +10,13 @@ import UIKit
 
 class CreateAccountVC: UIViewController {
 
+    //Outlets
+    @IBOutlet weak var usernameTxt: UITextField
+    @IBOutlet weak var emailTxt: UITextField!
+    @IBOutlet weak var passwordTxt: UITextField!
+    
+    @IBOutlet weak var userImg: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -17,6 +24,17 @@ class CreateAccountVC: UIViewController {
     }
 
    
+    
+    
+    @IBAction func createAccountPressed(_ sender: Any) {
+    }
+    
+    @IBAction func pickAvatarPressed(_ sender: Any) {
+    }
+    
+    
+    @IBAction func pickBGColorPressed(_ sender: Any) {
+    }
     
     
     @IBAction func closePressed(_ sender: Any) {

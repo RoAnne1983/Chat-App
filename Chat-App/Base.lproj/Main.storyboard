@@ -203,7 +203,7 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chat App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E9e-zN-VWO">
-                                        <rect key="frame" x="60" y="19" width="76" height="21"/>
+                                        <rect key="frame" x="60" y="19.5" width="76" height="20.5"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                         <color key="textColor" red="0.4391103982925415" green="0.41318619251251221" blue="0.79587489366531372" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -315,7 +315,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create an Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hoK-mZ-pgp">
-                                <rect key="frame" x="112" y="60" width="152" height="21"/>
+                                <rect key="frame" x="112.5" y="60" width="151.5" height="20.5"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" red="0.43911039829999998" green="0.41318619249999999" blue="0.79587489369999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -341,7 +341,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="342-0g-TwX">
-                                <rect key="frame" x="137" y="288" width="100" height="130"/>
+                                <rect key="frame" x="137" y="287.5" width="100" height="130"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="130" id="80p-xd-0OU"/>
                                 </constraints>
@@ -354,7 +354,7 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="UGg-DB-0DK">
-                                <rect key="frame" x="63" y="121" width="250" height="127"/>
+                                <rect key="frame" x="63" y="120.5" width="250" height="127"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TEw-ep-B1B">
                                         <rect key="frame" x="0.0" y="0.0" width="68" height="17"/>
@@ -371,7 +371,7 @@
                                         </constraints>
                                     </view>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uwF-Ga-aJG">
-                                        <rect key="frame" x="0.0" y="47" width="39" height="17"/>
+                                        <rect key="frame" x="0.0" y="47" width="38.5" height="17"/>
                                         <color key="textColor" red="0.4420414567" green="0.41052880879999998" blue="0.79594457149999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -401,14 +401,14 @@
                                 </subviews>
                             </stackView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profileDefault" translatesAutoresizingMaskIntoConstraints="NO" id="fmI-R6-RVd">
-                                <rect key="frame" x="138" y="288" width="100" height="100"/>
+                                <rect key="frame" x="138" y="287.5" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="EIs-wf-xG0"/>
                                     <constraint firstAttribute="width" constant="100" id="vg1-4D-OQF"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M3G-8l-GEk">
-                                <rect key="frame" x="105" y="418" width="166" height="28"/>
+                                <rect key="frame" x="105" y="417.5" width="166" height="28"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <state key="normal" title="Generate background color">
                                     <color key="titleColor" red="0.43102943900000001" green="0.41043654080000003" blue="0.7995850444" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

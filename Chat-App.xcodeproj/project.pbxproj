@@ -20,6 +20,7 @@
 		97B88AC721E5F8A7003B49F9 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B88AC621E5F8A7003B49F9 /* SWRevealViewController.m */; };
 		97B88ACC21E614F2003B49F9 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B88ACB21E614F2003B49F9 /* ChatVC.swift */; };
 		97B88ACE21E61503003B49F9 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B88ACD21E61503003B49F9 /* ChannelVC.swift */; };
+		97E8FEE2220991F300D97532 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E8FEE1220991F300D97532 /* RoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		97B88AC621E5F8A7003B49F9 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		97B88ACB21E614F2003B49F9 /* ChatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		97B88ACD21E61503003B49F9 /* ChannelVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		97E8FEE1220991F300D97532 /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		AF9E1CE4CA4F1D10DAABF231 /* Pods-Chat-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat-App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chat-App/Pods-Chat-App.debug.xcconfig"; sourceTree = "<group>"; };
 		EEA7378A8834117901FAC74B /* Pods_Chat_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chat_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -151,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				979555DD21E751B300350242 /* GradientView.swift */,
+				97E8FEE1220991F300D97532 /* RoundedButton.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97B88ACE21E61503003B49F9 /* ChannelVC.swift in Sources */,
+				97E8FEE2220991F300D97532 /* RoundedButton.swift in Sources */,
 				97B88ACC21E614F2003B49F9 /* ChatVC.swift in Sources */,
 				979F0CC221EC6A3200171387 /* CreateAccountVC.swift in Sources */,
 				979DED6121F4E24D002D14FE /* AuthService.swift in Sources */,

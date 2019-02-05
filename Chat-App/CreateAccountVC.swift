@@ -11,7 +11,7 @@ import UIKit
 class CreateAccountVC: UIViewController {
 
     //Outlets
-    @IBOutlet weak var usernameTxt: UITextField
+    @IBOutlet weak var usernameTxt: UITextField!
     @IBOutlet weak var emailTxt: UITextField!
     @IBOutlet weak var passwordTxt: UITextField!
     
@@ -27,6 +27,19 @@ class CreateAccountVC: UIViewController {
     
     
     @IBAction func createAccountPressed(_ sender: Any) {
+        //grab email, username
+        //guard - unwrapping optional values
+        guard let email = emailTxt.text, emailTxt.text != "" else
+            {   return  }
+        guard let pass = passwordTxt.text, passwordTxt.text != "" else
+            {   return  }
+        
+        AuthService.instance.registerUser(email: email, password: pass) { (success) in
+            if success {
+                print("registered user!")
+            }
+        }
+        
     }
     
     @IBAction func pickAvatarPressed(_ sender: Any) {

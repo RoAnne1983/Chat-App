@@ -217,7 +217,7 @@
                                     <action selector="closePressed:" destination="rjX-wX-Qao" eventType="touchUpInside" id="BaD-ET-qpZ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eoz-iN-h26">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eoz-iN-h26" customClass="RoundedButton" customModule="Chat_App" customModuleProvider="target">
                                 <rect key="frame" x="63" y="280" width="250" height="50"/>
                                 <color key="backgroundColor" red="0.44204145669937134" green="0.41052880883216858" blue="0.79594457149505615" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -230,6 +230,11 @@
                                 <state key="normal" title="Login">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1F8-9P-rIJ">
                                 <rect key="frame" x="49" y="330" width="277" height="30"/>
@@ -328,7 +333,7 @@
                                     <action selector="closePressed:" destination="oeh-f6-bFa" eventType="touchUpInside" id="lCb-5d-G9d"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mzb-VT-faq">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mzb-VT-faq" customClass="RoundedButton" customModule="Chat_App" customModuleProvider="target">
                                 <rect key="frame" x="63" y="597" width="250" height="50"/>
                                 <color key="backgroundColor" red="0.4420414567" green="0.41052880879999998" blue="0.79594457149999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -339,6 +344,11 @@
                                 <state key="normal" title="Create Account">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="createAccountPressed:" destination="oeh-f6-bFa" eventType="touchUpInside" id="IVy-iS-Nc1"/>
                                 </connections>
